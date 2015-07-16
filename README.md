@@ -31,7 +31,6 @@ web端这里诉说一下,web端是由4A小组开发的......不是我一个人�
 ##Android端页面
 
 ![image](http://www.coderss.cn/wp-content/uploads/2015/05/12-1024x500.jpg)
-![image](http://www.coderss.cn/wp-content/uploads/2015/05/12-1024x500.jpg)
 ![image](http://www.coderss.cn/wp-content/uploads/2015/05/3.jpg)
 ![image](http://www.coderss.cn/wp-content/uploads/2015/05/4.jpg)
 ![image](http://www.coderss.cn/wp-content/uploads/2015/05/5.jpg)
