@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/toanswer"
+        android:alphabeticShortcut="@string/picture_save_succeed"
+        android:showAsAction="always"
+        android:title="提交答案">
+    </item>
+
+    <group
+        android:id="@+id/mygroup"
+        android:showAsAction="always" >
+        
+    </group>
+
+</menu>

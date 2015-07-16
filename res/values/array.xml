@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sel_bbs">
+        <item>精华帖</item>
+        <item>最新贴</item>
+    </string-array>
+    <string-array name="test_category">
+        <item>试卷分类一</item>
+        <item>试卷分类二</item>
+        <item>试卷分类三</item>
+    </string-array>
+    <string-array name="problem_category">
+        <item>推荐问题浏览</item>
+        <item>最新问题</item>
+    </string-array>
+    <string-array name="problem_tag">
+        <item>PHP高级</item>
+        <item>XHTML</item>
+        <item>C#</item>
+    </string-array>
+
+</resources>

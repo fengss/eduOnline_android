@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/news_item_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layoutAnimation="@anim/view_zoomout_layout"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="贴吧标题"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/sc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="收藏"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/author"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发帖人:"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="标签:"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/addtime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="发布时间:"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/looknum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="浏览量:"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容这里是讨论的内容"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="撰写评论" />
+
+        <Button
+            android:id="@+id/look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看评论" />
+    </LinearLayout>
+
+</LinearLayout>

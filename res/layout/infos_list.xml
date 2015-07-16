@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/news_item_bg"
+    android:orientation="vertical" >
+
+    <cn.coderss.ui.FlowView
+        android:id="@+id/news_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:focusable="false"
+        android:maxHeight="500dip"
+        android:maxWidth="500dip" />
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/news_pic"
+        android:singleLine="false"
+        android:textColor="#656565" />
+
+    <TextView
+        android:id="@+id/news_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news_title"
+        android:layout_gravity="right|bottom"
+        android:gravity="right"
+        android:textColor="#9f9f9f" />
+
+</LinearLayout>

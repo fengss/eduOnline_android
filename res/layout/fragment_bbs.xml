@@ -1,0 +1,24 @@
+<cn.coderss.otherPullrefresh.TryRefreshableView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/trymyRV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <cn.coderss.otherPullrefresh.TryPullToRefreshScrollView
+        android:id="@+id/waterfall_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/waterfall_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/background"
+            tools:ignore="Orientation" >
+        </LinearLayout>
+    </cn.coderss.otherPullrefresh.TryPullToRefreshScrollView>
+
+</cn.coderss.otherPullrefresh.TryRefreshableView>

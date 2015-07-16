@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layoutAnimation="@anim/cell_layout1"
+    android:orientation="vertical"
+    android:paddingRight="20dp" >
+
+    <View
+        android:id="@+id/view_0"
+        android:layout_width="1dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/layout_1"
+        android:layout_marginLeft="71dp"
+        android:background="#A6A6A6" />
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="1dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/layout_2"
+        android:layout_marginLeft="71dp"
+        android:background="#A6A6A6" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/view_1"
+        android:layout_marginLeft="65dp"
+        android:src="@drawable/timeline_green" />
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="1dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/image"
+        android:layout_marginLeft="71dp"
+        android:background="#A6A6A6" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="-20dp"
+        android:layout_toRightOf="@+id/image"
+        android:background="@drawable/timeline_content"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/bg_green_circle_smic" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:maxEms="7"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="测试数据"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/show_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view_0"
+        android:layout_alignRight="@+id/image"
+        android:text="测试数据"
+        android:textSize="9dp" />
+
+</RelativeLayout>

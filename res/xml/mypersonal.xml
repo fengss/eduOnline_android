@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:icon="@drawable/icon"
+        android:orderingFromXml="true"
+        android:title="个人资料" >
+        <EditTextPreference
+            android:key="@+id/name"
+            android:title="姓名" />
+
+        <SwitchPreference
+            android:key="@+id/sex_man"
+            android:title="男性" />
+        <SwitchPreference
+            android:key="@+id/sex_woman"
+            android:title="女性" />
+
+        <EditTextPreference
+            android:key="@+id/age"
+            android:title="年龄" />
+        <EditTextPreference
+            android:key="@+id/desc"
+            android:title="简介" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
