@@ -12,27 +12,27 @@ web端这里诉说一下,web端是由4A小组开发的......不是我一个人�
 
 ##WEB端页面
 
-![image](http://www.coderss.cn/wp-content/uploads/2015/06/10-1024x638.jpg)
+![image](http://www.coderss.cn/wp-content/uploads/2015/06/10-1024x638.jpg)<br/>
 
 ![image](http://www.coderss.cn/wp-content/uploads/2015/06/9-1024x387.jpg)
 
 ##IOS端页面
 
-![image](http://www.coderss.cn/wp-content/uploads/2015/06/1.jpg)
-![image](http://www.coderss.cn/wp-content/uploads/2015/06/2-1024x578.jpg)
-![image](http://www.coderss.cn/wp-content/uploads/2015/06/3.jpg)
-![image](http://www.coderss.cn/wp-content/uploads/2015/06/4.jpg)
-![image](http://www.coderss.cn/wp-content/uploads/2015/06/5.jpg)
-![image](http://www.coderss.cn/wp-content/uploads/2015/06/6.jpg)
-![image](http://www.coderss.cn/wp-content/uploads/2015/06/7.jpg)
+![image](http://www.coderss.cn/wp-content/uploads/2015/06/1.jpg)<br/>
+![image](http://www.coderss.cn/wp-content/uploads/2015/06/2-1024x578.jpg)<br/>
+![image](http://www.coderss.cn/wp-content/uploads/2015/06/3.jpg)<br/>
+![image](http://www.coderss.cn/wp-content/uploads/2015/06/4.jpg)<br/>
+![image](http://www.coderss.cn/wp-content/uploads/2015/06/5.jpg)<br/>
+![image](http://www.coderss.cn/wp-content/uploads/2015/06/6.jpg)<br/>
+![image](http://www.coderss.cn/wp-content/uploads/2015/06/7.jpg)<br/>
 ![image](http://www.coderss.cn/wp-content/uploads/2015/06/8.jpg)
 
 
 ##Android端页面
 
-![image](http://www.coderss.cn/wp-content/uploads/2015/05/12-1024x500.jpg)
-![image](http://www.coderss.cn/wp-content/uploads/2015/05/3.jpg)
-![image](http://www.coderss.cn/wp-content/uploads/2015/05/4.jpg)
+![image](http://www.coderss.cn/wp-content/uploads/2015/05/12-1024x500.jpg)<br/>
+![image](http://www.coderss.cn/wp-content/uploads/2015/05/3.jpg)<br/>
+![image](http://www.coderss.cn/wp-content/uploads/2015/05/4.jpg)<br/>
 ![image](http://www.coderss.cn/wp-content/uploads/2015/05/5.jpg)
 
 
